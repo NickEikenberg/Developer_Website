@@ -18,16 +18,14 @@ const DefaultMainContent:FC = () => {
   )
 }
 
-
 const App:FC = () => {
-  const [showHero, setShowHero] = useState(false)
   const [mainContent, setMainContent] = useState(<DefaultMainContent/>)
 
   return (
     <>
       <div className="min-h-screen bg-slate-800 text-white overflow-hidden flex px-25">
-        <Navbar setShowHero={setShowHero} setMainContent={setMainContent}/>
-        <MainContainer showHero={showHero} mainContent={mainContent}/>
+        <Navbar setMainContent={setMainContent}/>
+        <MainContainer mainContent={mainContent}/>
       </div>
       <Footer />
     </>

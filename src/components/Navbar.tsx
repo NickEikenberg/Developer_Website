@@ -6,7 +6,6 @@ import Resume from "./Resume";
 import Projects from "./Projects";
 
 interface NavbarProps {
-  setShowHero: React.Dispatch<React.SetStateAction<boolean>>
   setMainContent: React.Dispatch<React.SetStateAction<JSX.Element>>
 }
 
