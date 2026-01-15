@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <>
       <div className="bg-gray-950 flex justify-center text-center p-4 w-full">
-        <h2 className="text-xl bg-gray-300 text-black px-4">About Me</h2>
+        <h2 className="text-xl bg-[#d2d2d2] text-black px-4 py-2 w-1/2">NICHOLAS EIKENBERG</h2>
       </div>
       <div className="w-1/3 bg-black p-4">
         <img src="src/assets/Disco.webp"></img>

@@ -23,9 +23,12 @@ const App:FC = () => {
 
   return (
     <>
-      <div className="min-h-screen bg-gradient-to-t from-[#0e0e0b] via-[#cf6f1b] to-[#1975b0] text-white overflow-hidden flex px-25">
-        <Navbar setMainContent={setMainContent}/>
-        <MainContainer mainContent={mainContent}/>
+      <div className="min-h-screen bg-[url(https://pbs.twimg.com/media/Gyq3mB5WoAM-mBR.jpg)] bg-cover text-white overflow-hidden flex px-25">
+        <div className="bg-gradient-to-t from-[#0e0e0b]/50 via-[#cf6f1b]/50 to-[#1975b0]/50 h-screen w-full fixed left-0"></div>
+        <div className="w-full z-10 flex">
+          <Navbar setMainContent={setMainContent}/>
+          <MainContainer mainContent={mainContent}/>
+        </div>
       </div>
       <Footer />
     </>
