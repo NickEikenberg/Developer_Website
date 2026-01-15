@@ -1,26 +1,14 @@
 export default function Hero() {
   return (
     <>
-      <div className="bg-gray-950 flex justify-center text-center p-4">
+      <div className="bg-gray-950 flex justify-center text-center p-4 w-full">
         <h2 className="text-xl bg-gray-300 text-black px-4">About Me</h2>
       </div>
-      <p className="p-4">
-        Homicide's illegal and death is the penalty
-        What justifies the homicide, when he dies?
-        In his own iniquity it's the
-        Master of the Mantis Rapture coming at ya
-        We have an APB on an MC Killer
-        Looks like the work of a Master
-        Evidence indicates that his stature
-        Merciless like a terrorist hard to capture
-        The flow, changes like a chameleon
-        Plays like a friend, and stabs you like a dagger
-        This technique attacks the immune system
-        Disguised like a lie paralyzing the victim
-        You scream, as it enters your bloodstream
-        Erupts your brain from the pain these thoughts contain
-        Moving on a dude with the speed of a centipede
-        And injure any motherfucking contender!
+      <div className="w-1/3 bg-black p-4">
+        <img src="src/assets/Disco.webp"></img>
+      </div>
+      <p className="p-4 bg-black m-4">
+        CHANGE THIS!!! A lifelong computer nerd, I've always been curious about what goes on inside this thing we're both looking at. My passion for all things tech led me to a career in the video games industry, where I spent 5 years in QA, learning to crunch, and working together with my team to hit tough deadlines. As a programmer, I've taken what I've learned from those years and pushed myself to create incredible things with my own code. I'm able to set and hit goals while creating products that I'm truly proud of.
       </p>
     </>
   )
