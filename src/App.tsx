@@ -23,7 +23,7 @@ const App:FC = () => {
 
   return (
     <>
-      <div className="min-h-screen bg-slate-800 text-white overflow-hidden flex px-25">
+      <div className="min-h-screen bg-gradient-to-t from-[#0e0e0b] via-[#cf6f1b] to-[#1975b0] text-white overflow-hidden flex px-25">
         <Navbar setMainContent={setMainContent}/>
         <MainContainer mainContent={mainContent}/>
       </div>

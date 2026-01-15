@@ -8,7 +8,7 @@ interface NavButtonProps {
 
 const NavButton:FC<NavButtonProps> = ({ title, onClick, contentToSet }) => {
   return (
-    <li className="w-full px-4 cursor-pointer hover:bg-white">
+    <li className="w-full px-4 cursor-pointer hover:bg-white hover:text-black">
       <button className="cursor-pointer" onClick={() => onClick(contentToSet)}>{title}</button>
     </li>
   );
