@@ -11,7 +11,7 @@ export default function Projects() {
           <section className="p-4 bg-black m-4 text-xs space-y-2" key={i}>
             <h3 className="text-base">{project.title}</h3>
             <div className="w-full flex justify-center">
-              <div className="w-1/2 border-4 border-[#1a2732]">
+              <div className="w-4/5 border-4 border-[#1a2732]">
                 <img src={project.image} />
               </div>
             </div>
