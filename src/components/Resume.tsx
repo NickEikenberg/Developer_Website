@@ -9,7 +9,6 @@ export default function Resume() {
       <div className="font-thin overflow-scroll">
         <section className="p-4 bg-black m-4 text-xs">
           <h3 className="text-base">Technologies</h3>
-          <h2>Some text</h2>
           <p>JavaScript, TypeScript, React, Redux, React Native, Next.js, Ruby, Rails, Python, Tailwind CSS,
           Jest, RSpec, AWS, Git, CI/CD (GitHub Actions, Buddy), Sentry,, Azure, PostgreSQL, MongoDB</p>
         </section>
